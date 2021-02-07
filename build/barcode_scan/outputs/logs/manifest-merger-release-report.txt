@@ -1,47 +1,47 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
-INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
-INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
-INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
-INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
-INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
-INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
+ADDED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
+INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
+INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
+INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
+INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
+INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
+INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
 	package
-		ADDED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:2:3-40
-		INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
-		INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+		ADDED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:2:3-40
+		INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
-		ADDED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
-		INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+		ADDED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
+		INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
-		ADDED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
-		INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+		ADDED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
+		INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:11-69
+		ADDED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.CAMERA
-ADDED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:4:3-63
+ADDED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:4:3-63
 	android:name
-		ADDED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:4:20-60
+		ADDED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:4:20-60
 application
-ADDED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:6:3-8:17
+ADDED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:6:3-8:17
 activity#com.apptreesoftware.barcodescan.BarcodeScannerActivity
-ADDED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:7:5-87
+ADDED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:7:5-87
 	android:name
-		ADDED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:7:15-84
+		ADDED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml:7:15-84
 uses-sdk
-INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
-INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
-INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
-INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
-		ADDED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
-		INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+		ADDED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
-		ADDED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
-		INJECTED from D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+		ADDED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml
+		INJECTED from D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\barcode_scan-1.0.0\android\src\main\AndroidManifest.xml

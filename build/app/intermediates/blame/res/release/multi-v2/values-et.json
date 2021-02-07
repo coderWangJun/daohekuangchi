@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\temp_project\\app\\app\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-et\\values-et.xml",
+            "outputFile": "D:\\tempProject\\daohekuangchi\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-et\\values-et.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\coderWangJun\\.gradle\\caches\\transforms-2\\files-2.1\\dd2ecfcfb369a2f0046b9c1c6d80939e\\appcompat-1.0.2\\res\\values-et\\values-et.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\47d0d0cbb2df3ca59aeb47ebbc63ed7e\\appcompat-1.0.2\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\coderWangJun\\.gradle\\caches\\transforms-2\\files-2.1\\a528b13ac93e64cafa3d0480e2c93207\\core-1.1.0\\res\\values-et\\values-et.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\039e4be8150fd2be72df998bdce8645b\\core-1.1.0\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

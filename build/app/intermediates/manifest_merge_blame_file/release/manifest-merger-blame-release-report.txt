@@ -5,10 +5,10 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
-8-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="28" />
-9-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="21"
+8-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml
 10    <!--
 11         io.flutter.app.FlutterApplication is an android.app.Application that
 12         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -17,130 +17,249 @@
 15         FlutterApplication and put your custom class here.
 16    -->
 17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-17-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:8:5-75
-17-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:8:22-72
+17-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:8:5-75
+17-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:8:22-72
 18    <uses-permission android:name="android.permission.INTERNET" />
-18-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:9:5-67
-18-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:9:22-64
+18-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:9:5-67
+18-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:9:22-64
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:10:5-79
-19-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:10:22-76
+19-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:10:5-79
+19-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:10:22-76
 20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-20-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:11:5-76
-20-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:11:22-73
+20-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:11:5-76
+20-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:11:22-73
 21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-21-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:12:5-80
-21-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:12:22-78
+21-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:12:5-80
+21-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:12:22-78
 22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-22-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:13:5-79
-22-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:13:22-77
+22-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:13:5-79
+22-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:13:22-77
 23    <uses-permission android:name="android.permission.CAMERA" />
-23-->[:barcode_scan] D:\temp_project\app\app\build\barcode_scan\intermediates\library_manifest\release\AndroidManifest.xml:11:5-65
-23-->[:barcode_scan] D:\temp_project\app\app\build\barcode_scan\intermediates\library_manifest\release\AndroidManifest.xml:11:22-62
-24
-25    <application
-25-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:14:5-52:19
-26        android:name="io.flutter.app.FlutterApplication"
-26-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:15:9-57
-27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.1.0] C:\Users\coderWangJun\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
-28        android:icon="@mipmap/ic_launcher"
-28-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:17:9-43
-29        android:label="道和矿池" >
-29-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:16:9-29
-30        <activity
-30-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:18:9-46:20
-31            android:name="com.jd.dh.MainActivity"
-31-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:19:13-41
-32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-32-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:22:13-163
-33            android:hardwareAccelerated="true"
-33-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:23:13-47
-34            android:launchMode="singleTop"
-34-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:20:13-43
-35            android:theme="@style/LaunchTheme"
-35-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:21:13-47
-36            android:windowSoftInputMode="adjustResize" >
-36-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:24:13-55
-37
-38            <!--
-39                 Specifies an Android theme to apply to this Activity as soon as
-40                 the Android process has started. This theme is visible to the user
-41                 while the Flutter UI initializes. After that, this theme continues
-42                 to determine the Window background behind the Flutter UI.
-43            -->
-44            <meta-data
-44-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:29:13-32:17
-45                android:name="io.flutter.embedding.android.NormalTheme"
-45-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:30:15-70
-46                android:resource="@style/NormalTheme" />
-46-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:31:15-52
-47            <!--
-48                 Displays an Android View that continues showing the launch screen
-49                 Drawable until Flutter paints its first frame, then this splash
-50                 screen fades out. A splash screen is useful to avoid any visual
-51                 gap between the end of Android's launch screen and the painting of
-52                 Flutter's first frame.
-53            -->
-54            <meta-data
-54-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:38:13-41:17
-55                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-55-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:39:15-79
-56                android:resource="@drawable/launch_background" />
-56-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:40:15-61
-57
-58            <intent-filter>
-58-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:42:13-45:29
-59                <action android:name="android.intent.action.MAIN" />
-59-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:43:17-68
-59-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:43:25-66
+23-->[:barcode_scan] D:\tempProject\daohekuangchi\build\barcode_scan\intermediates\library_manifest\release\AndroidManifest.xml:11:5-65
+23-->[:barcode_scan] D:\tempProject\daohekuangchi\build\barcode_scan\intermediates\library_manifest\release\AndroidManifest.xml:11:22-62
+24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+24-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:8:5-71
+24-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:8:22-68
+25
+26    <application
+26-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:14:5-52:19
+27        android:name="io.flutter.app.FlutterApplication"
+27-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:15:9-57
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\039e4be8150fd2be72df998bdce8645b\core-1.1.0\AndroidManifest.xml:24:18-86
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:17:9-43
+30        android:label="道和矿池"
+30-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:16:9-29
+31        android:networkSecurityConfig="@xml/net_sec"
+31-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:14:9-53
+32        android:theme="@style/AppTheme" >
+32-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:15:9-40
+33        <activity
+33-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:18:9-46:20
+34            android:name="com.jd.dh.MainActivity"
+34-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:19:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:22:13-163
+36            android:hardwareAccelerated="true"
+36-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:23:13-47
+37            android:launchMode="singleTop"
+37-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:20:13-43
+38            android:theme="@style/LaunchTheme"
+38-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:21:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:24:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+47-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:29:13-32:17
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:30:15-70
+49                android:resource="@style/NormalTheme" />
+49-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:31:15-52
+50            <!--
+51                 Displays an Android View that continues showing the launch screen
+52                 Drawable until Flutter paints its first frame, then this splash
+53                 screen fades out. A splash screen is useful to avoid any visual
+54                 gap between the end of Android's launch screen and the painting of
+55                 Flutter's first frame.
+56            -->
+57            <meta-data
+57-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:38:13-41:17
+58                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+58-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:39:15-79
+59                android:resource="@drawable/launch_background" />
+59-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:40:15-61
 60
-61                <category android:name="android.intent.category.LAUNCHER" />
-61-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:44:17-76
-61-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:44:27-74
-62            </intent-filter>
-63        </activity>
-64        <!--
-65             Don't delete the meta-data below.
-66             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-67        -->
-68        <meta-data
-68-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:49:9-51:33
-69            android:name="flutterEmbedding"
-69-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:50:13-44
-70            android:value="2" />
-70-->D:\temp_project\app\app\android\app\src\main\AndroidManifest.xml:51:13-30
-71
-72        <activity android:name="com.apptreesoftware.barcodescan.BarcodeScannerActivity" />
-72-->[:barcode_scan] D:\temp_project\app\app\build\barcode_scan\intermediates\library_manifest\release\AndroidManifest.xml:14:9-91
-72-->[:barcode_scan] D:\temp_project\app\app\build\barcode_scan\intermediates\library_manifest\release\AndroidManifest.xml:14:19-88
-73
-74        <provider
-74-->[:image_picker] D:\temp_project\app\app\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:9-19:20
-75            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-75-->[:image_picker] D:\temp_project\app\app\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-82
-76            android:authorities="com.jd.dh.flutter.image_provider"
-76-->[:image_picker] D:\temp_project\app\app\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-74
-77            android:exported="false"
-77-->[:image_picker] D:\temp_project\app\app\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
-78            android:grantUriPermissions="true" >
-78-->[:image_picker] D:\temp_project\app\app\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:13-47
-79            <meta-data
-79-->[:image_picker] D:\temp_project\app\app\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:16:13-18:75
-80                android:name="android.support.FILE_PROVIDER_PATHS"
-80-->[:image_picker] D:\temp_project\app\app\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:17:17-67
-81                android:resource="@xml/flutter_image_picker_file_paths" />
-81-->[:image_picker] D:\temp_project\app\app\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:18:17-72
-82        </provider>
-83
-84        <activity
-84-->[:url_launcher] D:\temp_project\app\app\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
-85            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-85-->[:url_launcher] D:\temp_project\app\app\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
-86            android:exported="false"
-86-->[:url_launcher] D:\temp_project\app\app\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
-87            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-87-->[:url_launcher] D:\temp_project\app\app\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
-88    </application>
-89
-90</manifest>
+61            <intent-filter>
+61-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:42:13-45:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:43:17-68
+62-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:43:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:44:17-76
+64-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:44:27-74
+65            </intent-filter>
+66        </activity>
+67        <!--
+68             Don't delete the meta-data below.
+69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+70        -->
+71        <meta-data
+71-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:49:9-51:33
+72            android:name="flutterEmbedding"
+72-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:50:13-44
+73            android:value="2" />
+73-->D:\tempProject\daohekuangchi\android\app\src\main\AndroidManifest.xml:51:13-30
+74
+75        <activity android:name="com.apptreesoftware.barcodescan.BarcodeScannerActivity" />
+75-->[:barcode_scan] D:\tempProject\daohekuangchi\build\barcode_scan\intermediates\library_manifest\release\AndroidManifest.xml:14:9-91
+75-->[:barcode_scan] D:\tempProject\daohekuangchi\build\barcode_scan\intermediates\library_manifest\release\AndroidManifest.xml:14:19-88
+76
+77        <provider
+77-->[:image_picker] D:\tempProject\daohekuangchi\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:9-19:20
+78            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+78-->[:image_picker] D:\tempProject\daohekuangchi\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-82
+79            android:authorities="com.jd.dh.flutter.image_provider"
+79-->[:image_picker] D:\tempProject\daohekuangchi\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-74
+80            android:exported="false"
+80-->[:image_picker] D:\tempProject\daohekuangchi\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+81            android:grantUriPermissions="true" >
+81-->[:image_picker] D:\tempProject\daohekuangchi\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:13-47
+82            <meta-data
+82-->[:image_picker] D:\tempProject\daohekuangchi\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:16:13-18:75
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[:image_picker] D:\tempProject\daohekuangchi\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:17:17-67
+84                android:resource="@xml/flutter_image_picker_file_paths" />
+84-->[:image_picker] D:\tempProject\daohekuangchi\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:18:17-72
+85        </provider> <!-- 适配9.0的系统 -->
+86        <uses-library
+86-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:18:9-20:40
+87            android:name="org.apache.http.legacy"
+87-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:19:13-50
+88            android:required="false" /> <!-- 适配9.0的系统 -->
+88-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:20:13-37
+89        <activity
+89-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:22:9-24:49
+90            android:name="com.leeson.image_pickers.activitys.PermissionActivity"
+90-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:23:13-81
+91            android:theme="@style/TransTheme" />
+91-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:24:13-46
+92        <activity
+92-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:25:9-27:49
+93            android:name="com.leeson.image_pickers.activitys.SelectPicsActivity"
+93-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:26:13-81
+94            android:theme="@style/TransTheme" />
+94-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:27:13-46
+95        <activity
+95-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:28:9-30:52
+96            android:name="com.leeson.image_pickers.activitys.PhotosActivity"
+96-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:29:13-77
+97            android:screenOrientation="portrait" />
+97-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:30:13-49
+98        <activity
+98-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:31:9-33:62
+99            android:name="com.leeson.image_pickers.activitys.VideoActivity"
+99-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:32:13-76
+100            android:configChanges="orientation|screenSize" />
+100-->[:image_pickers] D:\tempProject\daohekuangchi\build\image_pickers\intermediates\library_manifest\release\AndroidManifest.xml:33:13-59
+101        <activity
+101-->[:url_launcher] D:\tempProject\daohekuangchi\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+102            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+102-->[:url_launcher] D:\tempProject\daohekuangchi\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+103            android:exported="false"
+103-->[:url_launcher] D:\tempProject\daohekuangchi\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+104            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+104-->[:url_launcher] D:\tempProject\daohekuangchi\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+105
+106        <provider
+106-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:12:9-20:20
+107            android:name="com.luck.picture.lib.PictureFileProvider"
+107-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:13:13-68
+108            android:authorities="com.jd.dh.provider"
+108-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:14:13-60
+109            android:exported="false"
+109-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:15:13-37
+110            android:grantUriPermissions="true" >
+110-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:16:13-47
+111            <meta-data
+111-->[:image_picker] D:\tempProject\daohekuangchi\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:16:13-18:75
+112                android:name="android.support.FILE_PROVIDER_PATHS"
+112-->[:image_picker] D:\tempProject\daohekuangchi\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:17:17-67
+113                android:resource="@xml/file_paths" />
+113-->[:image_picker] D:\tempProject\daohekuangchi\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:18:17-72
+114        </provider>
+115
+116        <activity
+116-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:22:9-24:77
+117            android:name="com.luck.picture.lib.PictureSelectorActivity"
+117-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:23:13-72
+118            android:configChanges="orientation|keyboardHidden|screenSize" />
+118-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:24:13-74
+119        <activity
+119-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:25:9-27:77
+120            android:name="com.luck.picture.lib.PictureSelectorWeChatStyleActivity"
+120-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:26:13-83
+121            android:configChanges="orientation|keyboardHidden|screenSize" />
+121-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:27:13-74
+122        <activity
+122-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:28:9-31:64
+123            android:name="com.luck.picture.lib.PictureSelectorCameraEmptyActivity"
+123-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:29:13-83
+124            android:configChanges="orientation|keyboardHidden|screenSize"
+124-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:30:13-74
+125            android:theme="@style/Picture.Theme.Translucent" />
+125-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:31:13-61
+126        <activity
+126-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:32:9-34:77
+127            android:name="com.luck.picture.lib.PicturePreviewActivity"
+127-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:33:13-71
+128            android:configChanges="orientation|keyboardHidden|screenSize" />
+128-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:34:13-74
+129        <activity
+129-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:35:9-37:77
+130            android:name="com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity"
+130-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:36:13-90
+131            android:configChanges="orientation|keyboardHidden|screenSize" />
+131-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:37:13-74
+132        <activity
+132-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:38:9-41:50
+133            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+133-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:39:13-73
+134            android:configChanges="orientation|keyboardHidden|screenSize"
+134-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:40:13-74
+135            android:screenOrientation="sensor" />
+135-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:41:13-47
+136        <activity
+136-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:42:9-44:77
+137            android:name="com.luck.picture.lib.PictureExternalPreviewActivity"
+137-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:43:13-79
+138            android:configChanges="orientation|keyboardHidden|screenSize" />
+138-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:44:13-74
+139        <activity
+139-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:45:9-47:77
+140            android:name="com.luck.picture.lib.PicturePlayAudioActivity"
+140-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:46:13-73
+141            android:configChanges="orientation|keyboardHidden|screenSize" />
+141-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:47:13-74
+142        <activity
+142-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:48:9-50:61
+143            android:name="com.yalantis.ucrop.UCropActivity"
+143-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:49:13-60
+144            android:theme="@style/Base.Theme.NoActionBar" />
+144-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:50:13-58
+145        <activity
+145-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:51:9-53:61
+146            android:name="com.yalantis.ucrop.PictureMultiCuttingActivity"
+146-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:52:13-74
+147            android:theme="@style/Base.Theme.NoActionBar" />
+147-->[com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c797a3eb5686afd281cf55b6f68c2fe4\picture_library-v2.4.2\AndroidManifest.xml:53:13-58
+148    </application>
+149
+150</manifest>

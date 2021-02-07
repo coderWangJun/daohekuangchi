@@ -3,13 +3,13 @@
 3    package="io.flutter.plugins.connectivity" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\connectivity-0.4.9+5\android\src\main\AndroidManifest.xml
+5-->D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\connectivity-0.4.9+5\android\src\main\AndroidManifest.xml
 6
 7    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-7-->D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\connectivity-0.4.9+5\android\src\main\AndroidManifest.xml:3:3-76
-7-->D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\connectivity-0.4.9+5\android\src\main\AndroidManifest.xml:3:20-74
+7-->D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\connectivity-0.4.9+5\android\src\main\AndroidManifest.xml:3:3-76
+7-->D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\connectivity-0.4.9+5\android\src\main\AndroidManifest.xml:3:20-74
 8    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-8-->D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\connectivity-0.4.9+5\android\src\main\AndroidManifest.xml:4:3-74
-8-->D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\connectivity-0.4.9+5\android\src\main\AndroidManifest.xml:4:20-71
+8-->D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\connectivity-0.4.9+5\android\src\main\AndroidManifest.xml:4:3-74
+8-->D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\connectivity-0.4.9+5\android\src\main\AndroidManifest.xml:4:20-71
 9
 10</manifest>

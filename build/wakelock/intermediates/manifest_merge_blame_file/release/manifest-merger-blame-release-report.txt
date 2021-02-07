@@ -3,6 +3,6 @@
 3    package="creativecreatorormaybenot.wakelock" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->D:\software\flutter_windows_v1.12.13+hotfix.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\wakelock-0.1.4+2\android\src\main\AndroidManifest.xml
+5-->D:\service\flutterSdk\.pub-cache\hosted\pub.flutter-io.cn\wakelock-0.1.4+2\android\src\main\AndroidManifest.xml
 6
 7</manifest>

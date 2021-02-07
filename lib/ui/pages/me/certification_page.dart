@@ -9,7 +9,10 @@ import 'package:flutter/material.dart';
 import 'package:dh/utils/index.dart';
 
 import 'package:dh/provider/provider_widget.dart';
-import 'package:image_picker/image_picker.dart';
+// import 'package:image_picker/image_picker.dart';
+import 'package:flutter/services.dart';
+import 'package:image_pickers/Media.dart';
+import 'package:dh/ui/widgets/camera_photo.dart';
 
 class CertificationPage extends StatefulWidget {
   final String status;
@@ -82,37 +85,65 @@ class _CertificationPageState extends State<CertificationPage> {
     try {
       _focusNode.unfocus();
       _focusNode2.unfocus();
-      if (type == 0) {
-        _imageFile = await ImagePicker.pickImage(
-            source: ImageSource.gallery, maxWidth: 800, imageQuality: 95);
-      }
-      if (type == 1) {
-        _imageFile2 = await ImagePicker.pickImage(
-            source: ImageSource.gallery, maxWidth: 800, imageQuality: 95);
-      }
-      NavigatorUtil.pop(context);
-      setState(() {});
+      CameraPhotoUtil.selectImages(selectCount: 1).then((List<Media> vals) {
+        String _imgPath = vals.last.path;
+        File _file = new File(_imgPath);
+        if (type == 0) {
+          _imageFile = _file;
+        } else if (type == 1) {
+          _imageFile2 = _file;
+        }
+        if (_imgPath != null && _imgPath.isNotEmpty) {
+          setState(() {});
+          NavigatorUtil.pop(context);
+        }
+      });
+      // ImagePicker.pickImage(
+      //         source: ImageSource.gallery, maxWidth: 800, imageQuality: 95)
+      //     .then((File file) {
+      //   if (type == 0) {
+      //     _imageFile = file;
+      //   } else if (type == 1) {
+      //     _imageFile2 = file;
+      //   }
+      //   setState(() {});
+      //   NavigatorUtil.pop(context);
+      // });
     } catch (e) {
       ToastUtil.openToast('没有权限，无法打开相册！');
     }
   }
 
-  void _getPhototImage(type) async {
+  void _getPhototImage(type) {
     try {
       _focusNode.unfocus();
       _focusNode2.unfocus();
-      if (type == 0) {
-        _imageFile = await ImagePicker.pickImage(
-            source: ImageSource.camera, maxWidth: 800, imageQuality: 95);
-      }
-      if (type == 1) {
-        _imageFile2 = await ImagePicker.pickImage(
-            source: ImageSource.camera, maxWidth: 800, imageQuality: 95);
-      }
-      NavigatorUtil.pop(context);
-      setState(() {});
+      CameraPhotoUtil.openCamera().then((List<Media> vals) {
+        String _imgPath = vals.last.path;
+        File _file = new File(_imgPath);
+        if (type == 0) {
+          _imageFile = _file;
+        } else if (type == 1) {
+          _imageFile2 = _file;
+        }
+        if (_imgPath != null && _imgPath.isNotEmpty) {
+          setState(() {});
+          NavigatorUtil.pop(context);
+        }
+      });
+      // ImagePicker.pickImage(
+      //         source: ImageSource.camera, maxWidth: 800, imageQuality: 95)
+      //     .then((File file) {
+      //   if (type == 0) {
+      //     _imageFile = file;
+      //   } else if (type == 1) {
+      //     _imageFile2 = file;
+      //   }
+      //   setState(() {});
+      //   NavigatorUtil.pop(context);
+      // });
     } catch (e) {
-      ToastUtil.openToast('没有权限，无法打开相册！');
+      ToastUtil.openToast('没有权限，无法打开相机！');
     }
   }
 
@@ -289,10 +320,17 @@ class _CertificationPageState extends State<CertificationPage> {
                                 children: <Widget>[
                                   Column(
                                     children: <Widget>[
-                                      Text("身份证正面",
+                                      Container(
+                                        padding: EdgeInsets.only(
+                                          bottom: 10,
+                                        ),
+                                        child: Text(
+                                          "身份证正面",
                                           style: TextStyle(
                                               fontSize: 28.sp,
-                                              color: Colors.white)),
+                                              color: Colors.white),
+                                        ),
+                                      ),
                                       InkWell(
                                         onTap: () {
                                           _showDialog(0);
@@ -333,10 +371,17 @@ class _CertificationPageState extends State<CertificationPage> {
                                   ),
                                   Column(
                                     children: <Widget>[
-                                      Text("身份证反面",
+                                      Container(
+                                        padding: EdgeInsets.only(
+                                          bottom: 10,
+                                        ),
+                                        child: Text(
+                                          "身份证反面",
                                           style: TextStyle(
                                               fontSize: 28.sp,
-                                              color: Colors.white)),
+                                              color: Colors.white),
+                                        ),
+                                      ),
                                       InkWell(
                                         onTap: () {
                                           _showDialog(1);
